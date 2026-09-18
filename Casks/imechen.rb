@@ -1,5 +1,5 @@
 cask "imechen" do
-  version "0.2.1"
+  version "0.2.2"
 
   on_arm do
     sha256 :no_check
