@@ -1,13 +1,13 @@
 cask "imechen" do
-  version "1.0.0"
+  version "1.0.2"
 
   on_arm do
-    sha256 "f2d926382dd0c050562876278a430820254a5f5898620c586ea47b093da983d2"
+    sha256 "c8df480e96fc169692db4c272d363ebb88adbdf2bcbe4890e96dbe2592e4aad1"
     url "https://github.com/manomekun/imechen/releases/download/#{version}/imechen_#{version}_aarch64.dmg"
   end
 
   on_intel do
-    sha256 "a29d9ff06f150e3cae0bebf56c0c61d104b0a54387b54fc6f019faab9b9c4877"
+    sha256 "21de77be5022c36ebea62598e6f95e62b36d7becf8d649a424447e9fa248f6e5"
     url "https://github.com/manomekun/imechen/releases/download/#{version}/imechen_#{version}_x64.dmg"
   end
 
